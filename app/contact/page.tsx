@@ -22,9 +22,6 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the form data to your server
-    console.log('Form submitted:', formData)
-    // Reset form after submission
     setFormData({ name: '', email: '', subject: '', message: '' })
   }
 
@@ -67,11 +64,11 @@ export default function Contact() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold">Address</h3>
-                <p>123 Tech Street, Silicon Valley, CA 94000</p>
+                <p>Banglore, India</p>
               </div>
               <div>
                 <h3 className="font-semibold">Phone</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+91 9739337301</p>
               </div>
               <div>
                 <h3 className="font-semibold">Email</h3>
