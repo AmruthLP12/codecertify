@@ -72,7 +72,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p>info@codecertify.com</p>
+                <p>codecertifytechnologies@gmail.com</p>
               </div>
               <div>
                 <h3 className="font-semibold">Office Hours</h3>
